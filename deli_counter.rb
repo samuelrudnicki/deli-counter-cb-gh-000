@@ -8,7 +8,8 @@ def line(deli)
       current_line += " #{i+1}. #{name}"
     end
     puts(current_line)
-
   end
-  #binding.pry
+end
+
+def take_a_number
 end
