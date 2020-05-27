@@ -5,7 +5,7 @@ def line(deli)
   else
     current_line = "The line is currently:"
     deli.each_with_index do |i, name|
-      current_line += " #{i+1}. #{name}"
+      current_line += " #{i}. #{name}"
     end
     puts(current_line)
 
