@@ -8,5 +8,5 @@ def line(deli)
       current_line += " #{i}. #{name}"
     puts(current_line)
   end
-
+  binding.pry
 end
