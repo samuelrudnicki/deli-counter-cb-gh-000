@@ -8,7 +8,7 @@ def line(deli)
       current_line += " #{i+1}. #{name}"
     end
     puts(current_line)
-    
+
   end
   #binding.pry
 end
