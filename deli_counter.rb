@@ -7,5 +7,5 @@ def line(deli)
     deli.each_with_index do |i, name|
       current_line += " #{i}. #{name}"
   end
-  
+
 end
